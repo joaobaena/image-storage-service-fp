@@ -4,7 +4,7 @@ object Dependencies {
 
   object Version {
     val fs2 = "1.0.3"
-    val http4s = "0.20.0-M5"
+    val http4s = "0.19.0"
     val monix = "3.0.0-RC2"
     val cats = "1.6.0"
     val awsS3 = "0.2.2"
@@ -21,7 +21,7 @@ object Dependencies {
   val http4s = Seq(
     "org.http4s" %% "http4s-blaze-server" % Version.http4s,
     "org.http4s" %% "http4s-circe" % Version.http4s,
-    "org.http4s" %% "http4s-dsl" % Version.http4s,
+    "org.http4s" %% "http4s-dsl" % Version.http4s
   )
 
   val monix = Seq("io.monix" %% "monix" % Version.monix)
